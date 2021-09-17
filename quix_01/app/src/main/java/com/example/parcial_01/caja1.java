@@ -53,31 +53,31 @@ if(varcajaAP1.isChecked()||varcajaAP2.isChecked()||varcajaAP3.isChecked()) {
     public void calPunt(){
         if(varcajaAP1.isChecked()){
             punt1 = "1";
-            Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAP2.isChecked()){
             punt1 = "3";
-            Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
         }
         if (varcajaAP3.isChecked()){
            punt1 = "0";
-            Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAP1.isChecked()&&varcajaAP2.isChecked()){
             punt1 = "4";
-            Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAP2.isChecked()&&varcajaAP3.isChecked()){
             punt1 = "3";
-            Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAP1.isChecked()&&varcajaAP3.isChecked()){
             punt1 = "1";
-            Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAP1.isChecked()&&varcajaAP2.isChecked()&&varcajaAP3.isChecked()){
             punt1 = "4";
-            Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt1, Toast.LENGTH_SHORT).show();
         }
     }
 }

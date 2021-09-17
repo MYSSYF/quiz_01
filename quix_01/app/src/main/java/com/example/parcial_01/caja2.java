@@ -74,31 +74,31 @@ public class caja2 extends AppCompatActivity {
     public void calPunt(){
         if(varcajaAE1.isChecked()){
             punt2 = "3";
-            Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAE2.isChecked()){
             punt2 = "3";
-            Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
         }
         if (varcajaAE3.isChecked()){
             punt2 = "0";
-            Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAE1.isChecked()&&varcajaAE2.isChecked()){
             punt2 = "6";
-            Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAE2.isChecked()&&varcajaAE3.isChecked()){
             punt2 = "3";
-            Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAE1.isChecked()&&varcajaAE3.isChecked()){
             punt2 = "3";
-            Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
         }
         if(varcajaAE1.isChecked()&&varcajaAE2.isChecked()&&varcajaAE3.isChecked()){
             punt2 = "6";
-            Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, punt2, Toast.LENGTH_SHORT).show();
         }
 
     }

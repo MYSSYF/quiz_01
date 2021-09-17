@@ -1,14 +1,13 @@
 package com.example.parcial_01;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
+
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         varlista = findViewById(R.id.lista);
         varregis = findViewById(R.id.boton1);
-
         hitch ="";
 
 
@@ -42,12 +40,11 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
        String taxto = getIntent().getStringExtra("taxto");
-
-        hitch += taxto+  "\n";
+        hitch += taxto +"\n";
         varlista.setText(hitch);
 
-
     }
+
 
 
 }
